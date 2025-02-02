@@ -76,28 +76,49 @@
 //     return 0;
 // }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-#define MAX_BUFF_SIZE  1024
+// #define MAX_BUFF_SIZE  1024
 
-int main (void) {
+// int main (void) {
 
-    int buff_size;
-    scanf("%d",&buff_size);
-    printf("%d\n", buff_size > MAX_BUFF_SIZE ? MAX_BUFF_SIZE : buff_size);
+//     int buff_size;
+//     scanf("%d",&buff_size);
+//     printf("%d\n", buff_size > MAX_BUFF_SIZE ? MAX_BUFF_SIZE : buff_size);
 
-    return 0;
-}
-
-
+//     return 0;
+// }
 
 
+// #include <stdio.h>
+// #define MUL_VAR_NAME(A, B) mul_ ## A ##_ ##B
+// // здесь объявляйте макроопределение
+
+// int main(void)
+// {
+//     // здесь продолжайте программу
+//     int var_1, var_2;
+//     scanf("%d %d", &var_1, &var_2);
+//     int MUL_VAR_NAME(var_1, var_2) = var_1 * var_2;
+//     printf("%d\n", mul_var_1_var_2);
+
+//     return 0;
+// }
 
 
 
 
+// // #include <stdio.h>
+// // int printf(const char *format, ...);
+// #include "tmp/printf.h"
+// int main(void)
+// {
 
+//     int var_1 = 1, var_2 = 2;
+//     printf("%d\n", var_1 + var_2);
 
+//     return 0;
+// }
 
 
 
